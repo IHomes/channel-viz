@@ -158,7 +158,11 @@
 											bottom: 0.02,
 											left: 0.02
 										},
-										series: series
+										// series: series
+										series: [{series[1]},{series[2]}]
+										
+										
+										
 									});
 
 									graph.render();
