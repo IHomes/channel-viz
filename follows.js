@@ -158,18 +158,8 @@
 											bottom: 0.02,
 											left: 0.02
 										},
-										// series: series
-										series: [{
-										data: points,
-										color: '#' + dataColor
-									},{
-										data: points,
-										color: '#' + dataColor
-									}
-									]
-										
-										
-										
+										series: series
+
 									});
 
 									graph.render();
