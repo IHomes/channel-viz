@@ -160,7 +160,7 @@
 										},
 										// series: series
 										series: [{
-										data: points(1),
+										data: points,
 										color: '#' + dataColor
 									}]
 										
