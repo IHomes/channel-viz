@@ -158,7 +158,11 @@
 											left: 0.02
 										},
 										// series: series
-										series: [series,series]
+										series: [{
+										name: datastream.id,
+										data: points,
+										color: '#' + dataColor
+									}]
 										
 										
 										
