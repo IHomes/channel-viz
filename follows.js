@@ -158,7 +158,7 @@
 											left: 0.02
 										},
 										// series: series
-										series: [{series},{series}]
+										series: [series,series]
 										
 										
 										
