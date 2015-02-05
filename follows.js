@@ -162,7 +162,11 @@
 										series: [{
 										data: points,
 										color: '#' + dataColor
-									}]
+									},{
+										data: points,
+										color: '#' + dataColor
+									}
+									]
 										
 										
 										
