@@ -132,7 +132,6 @@
 									datastreamData.datapoints.forEach(function(datapoint) {
 										points.push({x: new Date(datapoint.at).getTime()/1000.0, y: parseFloat(datapoint.value)});
 									});
-
 									// Add Datapoints Array to Graph Series Array
 									series.push({
 										name: datastream.id,
@@ -159,7 +158,7 @@
 											left: 0.02
 										},
 										// series: series
-										series: [{series[1]},{series[2]}]
+										series: [{series},{series}]
 										
 										
 										
