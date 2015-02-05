@@ -149,6 +149,7 @@
 										width: 600,
 										height: 200,
 										renderer: 'area',
+										stroke: true,
 										min: parseFloat(datastream.min_value) - .25*(parseFloat(datastream.max_value) - parseFloat(datastream.min_value)),
 										max: parseFloat(datastream.max_value) + .25*(parseFloat(datastream.max_value) - parseFloat(datastream.min_value)),
 										padding: {
@@ -159,8 +160,7 @@
 										},
 										// series: series
 										series: [{
-										name: datastream.id,
-										data: points,
+										data: points(1),
 										color: '#' + dataColor
 									}]
 										
